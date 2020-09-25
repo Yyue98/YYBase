@@ -1,0 +1,16 @@
+PODS:
+  - YYBase (0.1.0)
+
+DEPENDENCIES:
+  - YYBase (from `../`)
+
+EXTERNAL SOURCES:
+  YYBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYBase: 78ceff9cb1e347eae4fd1142ee8ca296b64ad93f
+
+PODFILE CHECKSUM: 897e03b59524e9892f0533316addb8a725beb700
+
+COCOAPODS: 1.9.3
