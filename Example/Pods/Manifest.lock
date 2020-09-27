@@ -14,15 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - SQLiteRepairKit (1.2.2):
-    - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - WCDB (1.0.7.5):
-    - SQLiteRepairKit (~> 1.2.0)
-    - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - WCDBOptimizedSQLCipher (1.2.1)
-  - YYBase (0.1.0):
+  - Masonry (1.1.0)
+  - YYBase (1.0.1):
     - AFNetworking
-    - WCDB
+    - Masonry
 
 DEPENDENCIES:
   - YYBase (from `../`)
@@ -30,9 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - SQLiteRepairKit
-    - WCDB
-    - WCDBOptimizedSQLCipher
+    - Masonry
 
 EXTERNAL SOURCES:
   YYBase:
@@ -40,10 +33,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
-  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
-  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
-  YYBase: 4f0f1eb7abe90d5031dc0515aeb00a015d85e425
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYBase: 7bbffc7609c2cb1c5f78696941dc0755a429c54f
 
 PODFILE CHECKSUM: 897e03b59524e9892f0533316addb8a725beb700
 
