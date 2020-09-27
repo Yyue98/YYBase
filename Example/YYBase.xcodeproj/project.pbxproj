@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28F75CD1827A865DDFFEE713 /* Pods_YYBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B29FA3B18C53FA7FF74F8BD /* Pods_YYBase_Example.framework */; };
 		2C9E4D0BB3437BD56D85F0ED /* Pods_YYBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66FF35F6AC6A32A58CA8953 /* Pods_YYBase_Tests.framework */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		2D4A7B3825206DB90003D2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		2D4A7B3925206DB90003D2CF /* UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D4A7B3B25206DBB0003D2CF /* Pods_YYBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B29FA3B18C53FA7FF74F8BD /* Pods_YYBase_Example.framework */; };
+		2D4A7B3C25206DBB0003D2CF /* Pods_YYBase_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B29FA3B18C53FA7FF74F8BD /* Pods_YYBase_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D4A7B3D25206DBC0003D2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		2D4A7B3E25206DBC0003D2CF /* Foundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D4A7B3F25206DBD0003D2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		2D4A7B4025206DBD0003D2CF /* CoreGraphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YYAppDelegate.m */; };
@@ -35,6 +39,23 @@
 			remoteInfo = YYBase;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4A7B3A25206DBA0003D2CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D4A7B4025206DBD0003D2CF /* CoreGraphics.framework in Embed Frameworks */,
+				2D4A7B3C25206DBB0003D2CF /* Pods_YYBase_Example.framework in Embed Frameworks */,
+				2D4A7B3E25206DBC0003D2CF /* Foundation.framework in Embed Frameworks */,
+				2D4A7B3925206DB90003D2CF /* UIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B0AF143520B0B37727A87B4 /* Pods-YYBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYBase_Tests/Pods-YYBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				28F75CD1827A865DDFFEE713 /* Pods_YYBase_Example.framework in Frameworks */,
+				2D4A7B3F25206DBD0003D2CF /* CoreGraphics.framework in Frameworks */,
+				2D4A7B3825206DB90003D2CF /* UIKit.framework in Frameworks */,
+				2D4A7B3B25206DBB0003D2CF /* Pods_YYBase_Example.framework in Frameworks */,
+				2D4A7B3D25206DBC0003D2CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +229,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				F71231B1706C2C0A7F356815 /* [CP] Embed Pods Frameworks */,
+				2D4A7B3A25206DBA0003D2CF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,13 +371,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YYBase_Example/Pods-YYBase_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YYBase/YYBase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYBase.framework",
 			);
@@ -505,6 +525,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYBase/YYBase-Prefix.pch";
 				INFOPLIST_FILE = "YYBase/YYBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,6 +544,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYBase/YYBase-Prefix.pch";
 				INFOPLIST_FILE = "YYBase/YYBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

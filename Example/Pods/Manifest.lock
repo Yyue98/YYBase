@@ -1,22 +1,6 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - YYBase (1.0.1):
-    - AFNetworking
     - Masonry
 
 DEPENDENCIES:
@@ -24,7 +8,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
     - Masonry
 
 EXTERNAL SOURCES:
@@ -32,10 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YYBase: 7bbffc7609c2cb1c5f78696941dc0755a429c54f
+  YYBase: 699ab6caedc1067a22282b8411481a8bd6bbe0a3
 
-PODFILE CHECKSUM: 897e03b59524e9892f0533316addb8a725beb700
+PODFILE CHECKSUM: 647175d04bb1eac2b1a418606b41dd6bcd35ca9f
 
 COCOAPODS: 1.9.3
