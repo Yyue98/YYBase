@@ -1,7 +1,7 @@
 {
   "name": "YYBase",
   "version": "0.1.0",
-  "summary": "A short description of YYBase.",
+  "summary": "Testing",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Yyue98/YYBase",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YYBase/Classes/**/*"
+  "source_files": "YYBase/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

@@ -1,15 +1,36 @@
 PODS:
-  - YYBase (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - YYBase (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - YYBase (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   YYBase:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YYBase: 78ceff9cb1e347eae4fd1142ee8ca296b64ad93f
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  YYBase: bc299936f192d9118147ff74c0820f6bb2c16725
 
 PODFILE CHECKSUM: 897e03b59524e9892f0533316addb8a725beb700
 
