@@ -11,6 +11,7 @@
 #endif
 
 #import "UIColor+QH.h"
+#import "WCDBManage.h"
 
 FOUNDATION_EXPORT double YYBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYBaseVersionString[];
